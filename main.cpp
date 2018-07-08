@@ -3,11 +3,13 @@
 
 int main()
 {
+    int a = 0;
     entity * edek = new entity("edek");
     entity * fredek = new entity("fredek", 1.13, 9.9);
     std::cout<<"Objects log:\n";
     edek->show();
     fredek->show();
-    std::cout<<"End of a log!\n";
+    if (a == 0)
+    std::cout<<"Zmienna a wynosi zero!\n";
     return 0;
 }
